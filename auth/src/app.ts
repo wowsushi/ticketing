@@ -8,6 +8,7 @@ import { signoutRouter } from "./routes/signout";
 import { signupRouter } from "./routes/signup";
 
 import { errorHandler} from '@btticket/common'
+console.log('start')
 const app = express();
 app.set('trust proxy', true)
 app.use(json());
