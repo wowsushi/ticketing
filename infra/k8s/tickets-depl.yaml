@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: tickets
-          image: betty/tickets
+          image: betty713/tickets
           env: 
             - name: NATS_URL
               value: 'http://nats-srv:4222'
