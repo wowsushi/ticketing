@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: client
-          image: betty/ticketing-client
+          image: betty713/ticketing-client
 ---
 apiVersion: v1
 kind: Service
